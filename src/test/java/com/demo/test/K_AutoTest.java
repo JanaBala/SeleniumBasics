@@ -45,9 +45,9 @@ public class K_AutoTest {
 
 		driver.findElement(By.name("USER")).click();
 		driver.findElement(By.name("USER")).clear();
-		driver.findElement(By.name("USER")).sendKeys("B0032308");
+		driver.findElement(By.name("USER")).sendKeys("qaqaqa");
 		driver.findElement(By.name("PASSWORD")).clear();
-		driver.findElement(By.name("PASSWORD")).sendKeys("Kemper15");
+		driver.findElement(By.name("PASSWORD")).sendKeys("qaqaqa");
 		driver.findElement(By.id("button")).click();
 
 		System.out.println(" Login Successfully");
