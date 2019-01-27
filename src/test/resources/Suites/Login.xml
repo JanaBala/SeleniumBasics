@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Specify the test suite name -->
+<suite name="AKKU_Sanity" verbose="1" annotations="JDK" >
+ 
+	<test name="Login and logout">
+	
+    <parameter name="platform" value="Web" />
+	<parameter name="browser" value="firefox"/>
+  	<parameter name="Environment" value="https://www.kemper.com/" />
+  	
+  	    	<classes>
+  	    	    <class name="com.app.akku.work.TestCases.loginANDlogout" >
+  	    	    	 <methods>                                                                                           
+  	    	    	     <include name= "validLogin"/> 
+  	    	    	</methods> 		
+  	    	    </class>
+  	    	</classes>
+  	</test>   
+ </suite>
